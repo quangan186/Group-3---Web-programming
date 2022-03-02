@@ -3,27 +3,37 @@
     margin: 0;
 }
 
-h1{
+.container{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+
+header{
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
 }
 
 .introduction,.introduction table{
-    width: 100%;
-    height: auto;
+    align-self: center;
 }
-table, td, tr{
+
+table, td, tr, th{
     text-align: center;
     border: 1px solid black;
 }
 
-#quangan{
+td{
+    padding: 10px 40px;
+}
+
+a{
     text-decoration: none;
     color: black;
 }
 
-#quangan:hover{
+a:hover{
     color: blue;
 }
 
