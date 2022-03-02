@@ -46,6 +46,61 @@ a:hover{
 
 .info{
     display: flex;
+    width: 80%;
+    height: auto;
+}
+
+.fa-circle-left:active{
+    opacity:  0.3;
+}
+
+.details{
+    width: 60%;
+    height: 650px;
+    
+}
+
+.details h1{
+    text-align: center;
+}
+.details ul{
+    padding-left: 30px;
+}
+
+.details ul li{
+    font-size: 24px;
+    line-height: 2;
+}
+
+.fa-circle-left{
+    font-size: 32px;
+    color: black;
+    padding-left: 30px;
+    margin:23px 0;
+    width: 30%;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+}
+
+.navbar h1{
+    text-align: center;
+    font-size: 32px;
+    margin:20px 0;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: auto;
+}
+
+.info img{
+    width: 50%;
+    height: 650px;
+    margin-left: 150px;
 }
