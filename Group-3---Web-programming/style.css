@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.introduction,.introduction table{
+    width: 100%;
+    height: auto;
+}
+table, td, tr{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#quangan{
+    text-decoration: none;
+    color: black;
+}
+
+#quangan:hover{
+    color: blue;
+}
+
+#name{
+    text-align: center;
+    font-size: 32px;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
