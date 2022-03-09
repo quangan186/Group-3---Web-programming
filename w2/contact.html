@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="/w1/Group-3---Web-programming/Group-3---Web-programming/index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    
+        <form>
+            <header>
+                <h1>Contact form</h1>
+            </header>
+            
+            <div id="purpose">
+                <label>Purpose contact: </label>
+                <select>
+                    <option>Business</option>
+                    <option>Personal</option>
+                </select>
+            </div>
+        
+            <div id="input-name">
+                <label>Your name: </label>
+                <input type="text" name="name" maxlength="50" id="name" placeholder="Type your name">
+            </div>
+        
+            <div id="input-email">
+                <label>Your email: </label>
+                <input type="email" name="email" id="email" placeholder="Type your email" required>
+            </div>
+        
+            <div id="input-phone">
+                <label>Phone number: </label>
+                <input type="number" name="input-phone" id="phone" placeholder="Type your phone number">
+            </div>
+        
+            <div id="contact-method">
+                <label>Contact method: </label>
+                <input type="radio" name="e-mail">
+                <label>Email</label>
+                <input type="radio" name="phone">
+                <label>Phone</label>
+            </div>
+        
+            <div id="day">
+                <label>Contact day: </label>
+                <input type="checkbox" name="monday">
+                <span>Monday</span> |
+                <input type="checkbox" name="tuesday">
+                <span>Tuesday</span> |
+                <input type="checkbox" name="wednesday">
+                <span>Wednesday</span> |
+                <input type="checkbox" name="thursday">
+                <span>Thursday</span> |
+                <input type="checkbox" name="friday">
+                <span>Friday</span> |
+                <input type="checkbox" name="saturday">
+                <span>Saturday</span> |   
+                <input type="checkbox" name="sunday">
+                <span>Sunday</span>
+            </div>
+            
+            <div id="file-attach">
+                <label>Select a file: </label>
+                <input type="file" name = "file" id = "file">
+            </div>
+
+            <div id="message">
+                <label>Message: </label>
+                <textarea name="message" cols="77" rows="10" placeholder="Your message:"></textarea>
+            </div>
+        
+            <div id="button">
+                <input type="submit" value="Send" id = "send">
+                <input type="reset" value="Clear" id = "clear">
+            </div>
+        </form>
+    
+    
+        <footer>
+            <h1>Video about us </h1>
+            <iframe width="100%" height="700" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </footer>
+    </main>
+</body>
+</html>
