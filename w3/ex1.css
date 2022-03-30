@@ -1,0 +1,65 @@
+h1{
+    color: #0000FF;
+}
+h2{
+    color: #4169E1;
+}
+h3{
+    color: #6495ED;
+}
+h4{
+    color: #ADD8E6;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.active, .active a{
+    color: red;
+}
+
+nav ul li a:hover{
+    color: #3CB371;
+    text-decoration: none;
+}
+
+nav ul li:focus,nav ul li a:focus{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+
+#personal ul {
+    list-style: upper-roman;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+#personal ul li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+table tr td{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+table tr th{
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+table tr:nth-child(even){
+    background-color: #00FA9A;
+}
+
+table tr:nth-child(odd){
+    background-color: #B22222;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Password Verification</title>
+    <style>
+      div {
+        margin: 10px;
+      }
+      label {
+        display: block;
+        width: 100%;
+      }
+      .status-error {
+        background-color: orangered;
+      }
+      .status-success {
+        background-color: lightgreen;
+      }
+    </style>    
+  </head>
+
+  <body>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" type="password">
+    </div>
+    <div>
+      <label for="retype_password">Retype password</label>
+      <input id="retype_password" type="password">
+    </div>
+    <div>
+      <input type="button" value="Verify">
+    </div>
+    <p id="verification_status"></p>
+  </body>
+  <script src="ex2.js"></script>
+</html>

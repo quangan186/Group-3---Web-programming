@@ -102,7 +102,7 @@ form{
     border-color: #D8BFD8;
 }
 
-#input-name, #input-email, #input-phone, #contact-method, #day, #message, #file-attach{
+#input_name, #input_email, #input_phone, #contact_method, #day, #message, #file_attach{
     margin-bottom: 20px;
 }
 
@@ -226,6 +226,23 @@ span{
     font-size: 15px;
 }
 
-/* input{
-    width: 100%;
-} */
+input[type=file]::file-selector-button {
+    /* border: 1px solid black; */
+    background: none;
+    width: 100px;
+    height: 50px;
+    background-color: #2884b8;
+    /* padding: .2em .4em;*/
+    border-radius: 10px; 
+    /* background-color: #a29bfe; */
+    /* transition: 1s; */
+    font-weight: 500;
+    color: white;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  input[type=file]{
+
+    font-family: 'Open Sans', sans-serif;
+  }

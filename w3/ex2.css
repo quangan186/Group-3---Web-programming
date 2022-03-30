@@ -1,0 +1,31 @@
+ol li:first-child{
+    background-color: red;
+}
+
+ol li:last-child{
+    background-color: blue;
+}
+
+ol li{
+    background-color: green;
+}
+
+p::first-line{
+    color: pink;
+}
+
+p + p::first-line{
+    color: lightblue;
+}
+
+p::selection{
+    background-color: yellow;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+input[type="email"]{
+    background-color: green;
+}

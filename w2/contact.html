@@ -20,61 +20,61 @@
         </nav>
 
     
-        <form>
+        <form method="post" action="." enctype="multipart/form-data">
             <header>
                 <h1>Contact form</h1>
             </header>
             
             <div id="purpose">
                 <label>Purpose contact: </label>
-                <select>
-                    <option>Business</option>
-                    <option>Personal</option>
+                <select name="contact_purpose">
+                    <option value="business">Business</option>
+                    <option value="personal">Personal</option>
                 </select>
             </div>
         
-            <div id="input-name">
+            <div id="input_name">
                 <label>Your name: </label>
                 <input type="text" name="name" maxlength="50" id="name" placeholder="Type your name">
             </div>
         
-            <div id="input-email">
+            <div id="input_email">
                 <label>Your email: </label>
                 <input type="email" name="email" id="email" placeholder="Type your email" required>
             </div>
         
-            <div id="input-phone">
+            <div id="input_phone">
                 <label>Phone number: </label>
                 <input type="number" name="input-phone" id="phone" placeholder="Type your phone number">
             </div>
         
-            <div id="contact-method">
+            <div id="contact_method">
                 <label>Contact method: </label>
-                <input type="radio" name="e-mail">
+                <input type="radio" name="method" value = "e">
                 <label>Email</label>
-                <input type="radio" name="phone">
+                <input type="radio" name="method" value = "p">
                 <label>Phone</label>
             </div>
         
             <div id="day">
                 <label>Contact day: </label>
-                <input type="checkbox" name="monday">
+                <input type="checkbox" name="days[]" value="mon">
                 <span>Monday</span> |
-                <input type="checkbox" name="tuesday">
+                <input type="checkbox" name="days[]" value="tue">
                 <span>Tuesday</span> |
-                <input type="checkbox" name="wednesday">
+                <input type="checkbox" name="days[]" value="wed">
                 <span>Wednesday</span> |
-                <input type="checkbox" name="thursday">
+                <input type="checkbox" name="days[]" value="thu">
                 <span>Thursday</span> |
-                <input type="checkbox" name="friday">
+                <input type="checkbox" name="days[]" value="fri">
                 <span>Friday</span> |
-                <input type="checkbox" name="saturday">
+                <input type="checkbox" name="days[]" value="sat">
                 <span>Saturday</span> |   
-                <input type="checkbox" name="sunday">
+                <input type="checkbox" name="days[]" value="sun">
                 <span>Sunday</span>
             </div>
             
-            <div id="file-attach">
+            <div id="file_attach">
                 <label>Select a file: </label>
                 <input type="file" name = "file" id = "file">
             </div>

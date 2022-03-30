@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1024px){
+    .column1, .column2, .column3{
+        background-color: grey;
+        border: 1px solid cyan;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    header{
+        background-color: burlywood;
+    }
+    
+    footer{
+        background-color: aqua;
+    }
+    
+    .column{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .column_1_row{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .column1, .column2, .column3{
+        background-color: grey;
+        border: 1px solid cyan;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    header{
+        background-color: burlywood;
+    }
+    
+    footer{
+        background-color: aqua;
+    }
+    
+    /* .column{
+        display: flex;
+        width: 100%;
+        height: auto;
+    } */
+    .column_1_row{
+        display: flexbox;
+        flex-direction: column;
+    }
+}
+
+/* 
+Mobile < 740px
+Tablet: width >= 740px and width < 1024px
+ */

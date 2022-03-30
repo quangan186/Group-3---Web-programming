@@ -1,0 +1,111 @@
+header, footer{
+    width: 100%;
+    background-color: yellow;
+}
+
+#left{
+    min-width: 200px;
+    width: 30%;
+    margin: 0;
+    background-color: red;
+}
+
+#right{
+    width: 15%;
+    margin: 0;
+    background-color: blue;
+}
+
+main{
+    width: 55%;
+    
+}
+
+#main{
+    display: flex;
+    margin: 10px 0;
+}
+/* 
+/* Ex 4 
+
+header{
+    position: fixed;
+} */
+
+/* header {
+
+    position: relative;
+    
+    top: 0;
+    
+    left: 0;
+    
+    right: 0;
+    
+    margin-bottom: 20px;
+    
+    background-color: red;
+    
+    text-align: center;
+    
+    line-height: 40px;
+    
+    }
+    
+    
+    
+    #main {
+    
+    display: flex;
+    
+    }
+    
+    
+    
+    #left, #right, main {
+    
+    display: block;
+    
+    }
+    
+    
+    
+    #left {
+    
+    width: 300px;
+    
+    background-color: aqua;
+    
+    }
+    
+    
+    
+    main {
+    
+    width: 1000px;
+    
+    }
+    
+    
+    
+    #right {
+    
+    width: 300px;
+    
+    background-color: coral;
+    
+    }
+    
+    
+    
+    footer {
+    
+    margin-top: 20px;
+    
+    background-color: blueviolet;
+    
+    text-align: center;
+    
+    line-height: 40px;
+    
+    } */

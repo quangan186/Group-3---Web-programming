@@ -1,0 +1,49 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 14rem;
+    letter-spacing: 14px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 12px;
+}
+
+h2{
+    font-size: 12%;
+}
+
+h3{
+    font-size: 12rem;
+}
+
+h4{
+    font-size: 12em;
+}
+
+li{
+    font-size: 12vw;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 12vh;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
